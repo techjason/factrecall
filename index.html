@@ -42,18 +42,44 @@
 
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
+
           <li class="nav-item mx-0 mx-lg-1">
             <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger active" href="index.html">Home</a>
           </li>
-          <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="chemistry.html">Chemistry</a>
+
+          <!-- Chemistry -->
+          <li class="nav-item mx-0 mx-lg-1 dropdown">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Chemistry
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="gcsechemistry.html">GCSE</a>
+              <a class="dropdown-item" href="chemistry.html">A-Level</a>
+            </div>
           </li>
-          <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="biology.html">Biology</a>
+
+          <!-- Biology -->
+          <li class="nav-item mx-0 mx-lg-1 dropdown">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Biology
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="gcsebiology.html">GCSE</a>
+              <a class="dropdown-item" href="biology.html">A-Level</a>
+            </div>
           </li>
-          <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="physics.html">Physics</a>
+
+          <!-- Physics -->
+          <li class="nav-item mx-0 ml-lg-1 dropdown">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Physics
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="gcsephysics.html">GCSE</a>
+              <a class="dropdown-item" href="physics.html">A-Level</a>
+            </div>
           </li>
+
         </ul>
       </div>
 
@@ -65,7 +91,7 @@
     <div class="container d-flex align-items-center flex-column">
       <div class = "row">
         <!-- Left Header -->
-        <div class = "col-lg-7 animated slideInLeft">
+        <div class = "col-lg-12 animated slideInLeft mb-4">
           <!-- Masthead Heading -->
           <h1 class="masthead-heading text-uppercase mb-0">GCSE & A-Level Sciences</h1>
 
@@ -84,7 +110,7 @@
 
         <!-- Right Header with Buttons-->
 
-        <div class = "col-lg-5 animated fadeIn container">
+        <div class = "col-lg-12 animated fadeIn container">
           <div class = "py-3 px-4 row">
 
             <!-- Subject button row -->
@@ -97,7 +123,7 @@
                         <div class="text-center mb-2">
                           <i class="fas fa-atom fa-4x icons"></i>
                         </div>
-                        CHEMISTRY
+                        A-LEVEL CHEMISTRY
                     </div>
                   </div>
                 </a>
@@ -110,7 +136,7 @@
                       <div class="text-center mb-2">
                         <i class="fas fa-microscope fa-4x icons"></i>
                       </div>
-                      BIOLOGY
+                      A-LEVEL BIOLOGY
                     </div>
                   </div>
                 </a>
@@ -123,36 +149,60 @@
                     <div class="text-center mb-2">
                       <i class="fas fa-lightbulb fa-4x icons"></i>
                     </div>
-                    PHYSICS
+                    A-LEVEL PHYSICS
                   </div>
                 </div>
               </a>
             </div>
 
+          </div>
+        </div>
 
-            <!-- <div class = "d-flex">
-              <a href="physics.html" class = "w-50 pr-3 pb-4" style="text-decoration: none">
-                <div class = "card boarder-0 boarder-bottom-red shadow-lg shadow-hover">
-                  <div class = "card-body text-center">
-                    <div class="text-center mb-2">
-                      <i class="fas fa-lightbulb fa-4x icons"></i>
+
+        <div class = "col-lg-12 animated fadeIn container">
+          <div class = "py-3 px-4 row">
+
+            <!-- Subject button row -->
+
+              <!-- Chemitry button -->
+              <div class = "col-sm">
+                <a href="gcsechemistry.html" class = "w-20 pr-3 pb-4" style="text-decoration: none">
+                  <div class = "card boarder-0 boarder-bottom-red shadow-lg shadow-hover">
+                    <div class = "card-body text-center text-danger">
+                        <div class="text-center mb-2">
+                          <i class="fas fa-flask fa-4x icons"></i>
+                        </div>
+                        GCSE CHEMISTRY
                     </div>
-                    PHYSICS
+                  </div>
+                </a>
+              </div>
+
+              <div class = "col-sm">
+                <a href="gcsebiology.html" class = "w-20 pr-3 pb-4" style="text-decoration: none">
+                  <div class = "card boarder-0 boarder-bottom-red shadow-lg shadow-hover">
+                    <div class = "card-body text-center text-danger">
+                      <div class="text-center mb-2">
+                        <i class="fas fa-leaf fa-4x icons"></i>
+                      </div>
+                      GCSE BIOLOGY
+                    </div>
+                  </div>
+                </a>
+            </div>
+
+            <div class = "col-sm">
+              <a href="gcsephysics.html" class = "w-20 pr-3 pb-4" style="text-decoration: none">
+                <div class = "card boarder-0 boarder-bottom-red shadow-lg shadow-hover">
+                  <div class = "card-body text-center text-danger">
+                    <div class="text-center mb-2">
+                      <i class="fas fa-wave-square fa-4x icons"></i>
+                    </div>
+                    GCSE PHYSICS
                   </div>
                 </div>
               </a>
-
-              <a href="" class = "w-50 pl-3 pb-4" style="text-decoration: none">
-                <div class = "card boarder-0 boarder-bottom-red shadow-lg shadow-hover">
-                  <div class = "card-body text-center">
-                    <div class="text-center mb-2">
-                      <i class="fas fa-square-root-alt fa-4x icons"></i>
-                    </div>
-                    MATHS
-                  </div>
-                </div>
-              </a>
-            </div> -->
+            </div>
 
           </div>
         </div>
@@ -197,7 +247,7 @@
   <!-- Copyright Section -->
   <section class="copyright py-4 text-center text-white">
     <div class="container">
-      <small>Copyright &copy; factrecall.com 2020</small><br>
+      <small>Copyright &copy; factrecall.com 2020 <br>Jason Chan &nbsp;Ieuan Blackwell &nbsp; Abijith Mourghan</small><br>
     </div>
   </section>
 
